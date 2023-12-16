@@ -1,0 +1,69 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+* {
+  font-family: myFirstFont;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans';
+  height: 100vh;
+}
+.container {
+  background-color: white;
+  width: 25%;
+  border-radius: 5px;
+  padding: 15px;
+}
+h2 {
+  text-align: center;
+}
+h4 {
+  position: relative;
+  /* transform: translateX(-5px); */
+  margin-left: 20px;
+}
+h4::before {
+  position: absolute;
+  left: -15px;
+  bottom: -7px;
+  content: "";
+  width: 6px;
+  height: 30px;
+  background-color: black;
+}
+.input {
+  width: 92%;
+  padding: 10px;
+  outline: none;
+  background: transparent;
+  border: 1px solid #979797;
+  border-radius: 5px;
+}
+.submit {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+p {
+  font-size: smaller;
+  text-align: center;
+}
+a{
+
+    text-decoration: none;
+}
+/*  */
+
+span{
+  color: red;
+  font-size: small;
+}

@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: system-ui; */
+  font-family: myFirstFont;
+}
+header {
+  margin: 0 auto;
+  box-shadow: 0 0 4px hsl(0, 0%, 25%);
+  background-color: #0f1012;
+  backdrop-filter: blur(10px);
+  padding: 5px;
+  color: white;
+}
+.con {
+  display: flex;
+  justify-content: space-around;
+}
+.logo h4 {
+  margin: 8px auto;
+}
+.logo a{
+margin-top: 7px;
+}
+nav {
+  text-align: center;
+}
+nav ul {
+
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 9px;
+  text-decoration: none;
+}
+nav ul li a{
+  /* margin-bottom: 3px; */
+  text-decoration: none;
+  color: white;
+  
+}
+a{
+  text-decoration: none;
+   color: white;
+   padding-top: 5px;
+   /* transform: translateY(20px); */
+}
+
+
+.img img {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+.best {
+  position: absolute;
+  bottom: 2%;
+  left: 38%;
+  color: white;
+}
+.best p{
+  font-size: 10px;
+  text-align: center;
+}
+
+#Flower {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#Flower .imgs{
+  display: grid;
+  grid-template-columns: repeat(3,400px);
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+#Flower .imgs img{
+  width:90%;
+  margin-left: 20px ;
+}
+
+
+/*  */
+.image{
+  position: relative;
+}
+
+.image .description{
+  transition: .5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+   opacity: 0;
+   background-color: #0f1012;
+   width: 90%;
+   height: 99%;
+   color: white;
+  }
+  .image:hover .description{
+  opacity: 2;
+  
+  
+}
+/*  */
+.login{
+  text-align: center;
+  display: flex;
+  gap: 9px;
+  margin-top: 7px;
+}
+.login p{
+  font-size: 12px;
+  margin-top: 4px;
+}
+.login a{
+  /* margin-left: 2px; */
+} 
+/*  */
+
+#ContactUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 98vh;
+
+}
+.container input{
+  width: 500px;
+  padding: 9px;
+  outline: none;
+}
+
+.container select{
+  width: 500px;
+  padding: 9px;
+  outline: none;
+
+}
+span{
+  color: red;
+}
+
+/* //   $mysqli="INSERT INTO users VALUES ('',' $username','  $email','$dateofbirth','$password')";
+//   $run=mysqli_query($conn,$mysqli); */
+
+
+
