@@ -42,7 +42,7 @@ session_start();
         <img src="Img/pexels-pixabay-45901.jpg" alt="Img" id="img" />
         <img src="Img/pexels-daniel-spase-699919.jpg" alt="Img" id="img" />
         <img src="Img/pexels-anthony-📷📹🙂-133507.jpg" alt="img" id="img" />
-        <div class="button">
+        <div class="">
         </div>
       </div>
       <br />
@@ -64,7 +64,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php" > Add to Favorite</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>
@@ -81,7 +81,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php" >Add to Favorite</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>
@@ -97,7 +97,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php" >Add to Favorite</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>
@@ -112,7 +112,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php" >Add to Favorite</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>
@@ -127,7 +127,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php">Add to Favorite</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>
@@ -142,7 +142,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <button>Add to Favorite</button>
+            <a href="delete.php">Add to Favorite</a>
             <h4>Flyer</h4>
           </div>
         </div>
