@@ -64,7 +64,7 @@ session_start();
         <div class="image">
           <img src="<?= $row['img'] ?>" class="img" alt="" />
           <div class="description">
-            <a href="delete.php" > Add to Favorite</a>
+          <a href='delete.php? ID={$row['ID']}'>Delete</a>
             <h4><?= $row['Description'] ?></h4>
           </div>
         </div>

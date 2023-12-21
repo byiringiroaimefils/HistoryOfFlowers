@@ -1,11 +1,12 @@
 <?php
-include("conn.php");
-$id=$_POST["ID"];
+$conn = mysqli_connect("localhost", "root", "", "collectionofflower");
+$ID = $_GET["ID"];
+// echo $id;
 
-$sql= "DELETE FROM photo WHERE id='$id'";
+$sql = "DELETE FROM photo WHERE ID=$ID";
 
-$run = mysqli_query($conn,$sql);
-if ($run) {
-    header("location:Admin.php");
- }
-?>
+$run = mysqli_query($conn, $sql);
+// if ($run) {
+//     header("location:Admin.php");
+//  }
+// 
