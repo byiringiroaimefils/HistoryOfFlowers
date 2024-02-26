@@ -42,9 +42,9 @@ $run = mysqli_query($conn, $sqli);
             width: 46%;
             height: 35px;
         }
-        td:nth-{
+        /* td:nth-{
 
-        }
+        } */
 
         .SM {
             width: 5%;
