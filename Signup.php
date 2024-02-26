@@ -14,6 +14,7 @@
  <body>
      <?php
         // Define Variable
+        
         $username = $Email = $password = "";
         $usernameErr = $EmailErr = $passwordErr = "";
 

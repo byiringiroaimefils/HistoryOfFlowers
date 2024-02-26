@@ -24,7 +24,7 @@ include("conn.php");
 
         $sqli = "SELECT * FROM users WHERE email='$email' AND Passwords='$password'";
         $run = mysqli_query($conn, $sqli);
-        $row = mysqli_fetch_array($run);
+        $row = mysqli_num_rows($run);
 
         if ($row){
             $_SESSION["email"] = $row["email"];

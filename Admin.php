@@ -32,7 +32,7 @@ session_start();
         </ul>
       </nav>
       <div class="login">
-        <a href="Logout.php">Logout</a><br>
+        <a href="Logout.php">Logout</a><br> 
       </div>
     </div>
   </header>
